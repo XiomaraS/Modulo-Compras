@@ -1,0 +1,20 @@
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\bin\Debug\Navegador.dll
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\bin\Debug\Navegador.pdb
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\bin\Debug\MySql.Data.dll
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\bin\Debug\MySql.Data.xml
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.Navegador.resources
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.dll
+C:\Users\kimbe\Documents\Semestre VIII\Analisis de sistemas II\Prototipo_Movimiento_Clientes\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.pdb
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\bin\Debug\Navegador.dll
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\bin\Debug\Navegador.pdb
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\bin\Debug\MySql.Data.dll
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\bin\Debug\MySql.Data.xml
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.Navegador.resources
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.dll
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\Modulo_cxp_cxc_y_compras\NavegadorIntegracion-master\Navegador\obj\Debug\Navegador.pdb
