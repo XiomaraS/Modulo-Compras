@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FC64285-A3CD-4BCD-B70B-D2195FAF5EDF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Modulo_Compras</RootNamespace>
+    <AssemblyName>Modulo_Compras</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaDatos">
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="Conex">
+      <HintPath>..\Conex\Conex\bin\Debug\Conex.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="dllconnectionDatabase">
+      <HintPath>..\Proveedores1\Proveedores1\bin\Debug\dllconnectionDatabase.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\FlashControlV71.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Navegador">
+      <HintPath>..\NavegadorIntegracion-master\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\ShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Prototipo_Movimiento_Clientes\Movimientos_clientes\CapaDiseño\bin\Debug\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Capa de Datos\cls_conexion.cs" />
+    <Compile Include="Capa de Datos\cls_parametros.cs" />
+    <Compile Include="Capa de Datos\Class1.cs" />
+    <Compile Include="Capa de Datos\CodigoDatos.cs" />
+    <Compile Include="Capa Diseño\AlmacenarOCRealizadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\AlmacenarOCRealizadas.designer.cs">
+      <DependentUpon>AlmacenarOCRealizadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\CapturaOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\CapturaOrden.designer.cs">
+      <DependentUpon>CapturaOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Catalogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Catalogos.designer.cs">
+      <DependentUpon>Catalogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\ControlDemora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\ControlDemora.designer.cs">
+      <DependentUpon>ControlDemora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\devolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\devolucion.designer.cs">
+      <DependentUpon>devolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\GenerarOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\GenerarOC.designer.cs">
+      <DependentUpon>GenerarOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Iinformacion de Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Iinformacion de Proveedores.designer.cs">
+      <DependentUpon>Iinformacion de Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Informacion de Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Informacion de Clientes.designer.cs">
+      <DependentUpon>Informacion de Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\ingreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\ingreso.designer.cs">
+      <DependentUpon>ingreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa de Datos\ProgramI.cs" />
+    <Compile Include="Capa Diseño\MantTranProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\MantTranProveedores.designer.cs">
+      <DependentUpon>MantTranProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\movClientePoliza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\movClientePoliza.designer.cs">
+      <DependentUpon>movClientePoliza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\movimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\movimientos.designer.cs">
+      <DependentUpon>movimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\MovProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\MovProveedores.designer.cs">
+      <DependentUpon>MovProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\movProvPoliza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\movProvPoliza.designer.cs">
+      <DependentUpon>movProvPoliza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Mov_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Mov_clientes.designer.cs">
+      <DependentUpon>Mov_clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Mov_clientes_nuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Mov_clientes_nuevo.designer.cs">
+      <DependentUpon>Mov_clientes_nuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa de Datos\Program.cs" />
+    <Compile Include="Capa de Datos\ProgramP.cs" />
+    <Compile Include="Capa de Datos\ProgramO.cs" />
+    <Compile Include="Capa de Datos\ReportMov.cs" />
+    <Compile Include="Capa Diseño\TranProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\TranProveedores.designer.cs">
+      <DependentUpon>TranProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Transacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Transacciones.designer.cs">
+      <DependentUpon>Transacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Ver solicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Ver solicitudes.designer.cs">
+      <DependentUpon>Ver solicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Vision_movs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Vision_movs.designer.cs">
+      <DependentUpon>Vision_movs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Vision_trans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Vision_trans.designer.cs">
+      <DependentUpon>Vision_trans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Logica\Class1.cs" />
+    <Compile Include="Capa Logica\Metodos.cs" />
+    <Compile Include="Navegador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navegador.designer.cs">
+      <DependentUpon>Navegador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Capa Diseño\AlmacenarOCRealizadas.resx">
+      <DependentUpon>AlmacenarOCRealizadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\CapturaOrden.resx">
+      <DependentUpon>CapturaOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Catalogos.resx">
+      <DependentUpon>Catalogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\ControlDemora.resx">
+      <DependentUpon>ControlDemora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\devolucion.resx">
+      <DependentUpon>devolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\GenerarOC.resx">
+      <DependentUpon>GenerarOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Iinformacion de Proveedores.resx">
+      <DependentUpon>Iinformacion de Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Informacion de Clientes.resx">
+      <DependentUpon>Informacion de Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\ingreso.resx">
+      <DependentUpon>ingreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\MantTranProveedores.es-GT.resx">
+      <DependentUpon>MantTranProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\MantTranProveedores.resx">
+      <DependentUpon>MantTranProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\movClientePoliza.resx">
+      <DependentUpon>movClientePoliza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\movimientos.resx">
+      <DependentUpon>movimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\MovProveedores.resx">
+      <DependentUpon>MovProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\movProvPoliza.resx">
+      <DependentUpon>movProvPoliza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Mov_clientes.resx">
+      <DependentUpon>Mov_clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Mov_clientes_nuevo.resx">
+      <DependentUpon>Mov_clientes_nuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\TranProveedores.resx">
+      <DependentUpon>TranProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Transacciones.resx">
+      <DependentUpon>Transacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Ver solicitudes.resx">
+      <DependentUpon>Ver solicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Vision_movs.resx">
+      <DependentUpon>Vision_movs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Vision_trans.resx">
+      <DependentUpon>Vision_trans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navegador.resx">
+      <DependentUpon>Navegador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
