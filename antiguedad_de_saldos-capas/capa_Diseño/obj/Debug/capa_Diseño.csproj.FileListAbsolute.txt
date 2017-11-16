@@ -1,0 +1,13 @@
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\bin\Debug\capa_Diseño.exe.config
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\bin\Debug\capa_Diseño.exe
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\bin\Debug\capa_Diseño.pdb
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\bin\Debug\capa_logica.dll
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\bin\Debug\capa_logica.pdb
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.csprojResolveAssemblyReference.cache
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.Form1.resources
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.proveedores.resources
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.clientes.resources
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.Properties.Resources.resources
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.csproj.GenerateResource.Cache
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.exe
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_Diseño\obj\Debug\capa_Diseño.pdb

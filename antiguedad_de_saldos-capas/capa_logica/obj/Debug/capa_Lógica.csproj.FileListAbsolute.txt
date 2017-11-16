@@ -1,0 +1,7 @@
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\bin\Debug\capa_logica.dll
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\bin\Debug\capa_logica.pdb
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\obj\Debug\capa_Lógica.csprojResolveAssemblyReference.cache
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\obj\Debug\capa_logica.dll
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\obj\Debug\capa_logica.pdb
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\bin\Debug\capa_Datos.dll
+C:\Users\adria\documents\visual studio 2015\Projects\antiguedad_de_saldos-capas\capa_logica\bin\Debug\capa_Datos.pdb
