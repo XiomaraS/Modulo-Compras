@@ -1,0 +1,17 @@
+c:\users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\prototipoEnlace.exe.config
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\prototipoEnlace.exe
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\prototipoEnlace.pdb
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.csprojResolveAssemblyReference.cache
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.Properties.Resources.resources
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.Form1.resources
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.csproj.GenerateResource.Cache
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.exe
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.pdb
+C:\Users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\Conex.dll
+C:\Users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\MySql.Data.dll
+C:\Users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\Conex.pdb
+C:\Users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\MySql.Data.xml
+C:\Users\scarl\documents\visual studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\prototipoEnlace.movProvPoliza.resources
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\Navegador.dll
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\bin\Debug\Navegador.pdb
+C:\Users\scarl\Documents\Visual Studio 2015\Projects\prototipoEnlace\prototipoEnlace\obj\Debug\Navegador.Navegador.resources
