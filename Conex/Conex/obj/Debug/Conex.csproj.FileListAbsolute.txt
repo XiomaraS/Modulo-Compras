@@ -1,0 +1,7 @@
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\bin\Debug\Conex.dll
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\bin\Debug\Conex.pdb
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\bin\Debug\MySql.Data.dll
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\bin\Debug\MySql.Data.xml
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\obj\Debug\Conex.csprojResolveAssemblyReference.cache
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\obj\Debug\Conex.dll
+c:\users\scarl\documents\visual studio 2015\Projects\Conex\Conex\obj\Debug\Conex.pdb
